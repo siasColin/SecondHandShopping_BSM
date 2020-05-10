@@ -54,7 +54,7 @@
 			</div>
 			<div class="layui-col-xs5">
 				<div class="layui-form-item">
-					<label class="layui-form-label">商品描述</label>
+					<label class="layui-form-label">发布时间</label>
 					<div class="layui-input-block">
 						<input type="text" readonly id="goodsIssudate" name="goodsIssudate" value="${goodsInfo.goodsIssudate}" autocomplete="off" class="layui-input" />
 					</div>

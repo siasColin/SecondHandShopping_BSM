@@ -89,10 +89,10 @@
 					<div class="layui-input-block">
 						<select id="userGrade" name="userGrade" lay-verify="required">
 							<option value=""></option>
-							<option value="大一">大一</option>
-							<option value="大二">大二</option>
-							<option value="大三">大三</option>
-							<option value="大四">大四</option>
+							<option <c:if test="${userInfo.userGrade eq '大一' or empty userInfo}">selected</c:if> value="大一">大一</option>
+							<option <c:if test="${userInfo.userGrade eq '大二' or empty userInfo}">selected</c:if> value="大二">大二</option>
+							<option <c:if test="${userInfo.userGrade eq '大三' or empty userInfo}">selected</c:if> value="大三">大三</option>
+							<option <c:if test="${userInfo.userGrade eq '大四' or empty userInfo}">selected</c:if> value="大四">大四</option>
 						</select>
 					</div>
 				</div>
